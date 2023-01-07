@@ -16,7 +16,8 @@ _______________________________________________________________________________
 * Tema2.java
 
     * This is the main class. Here the input will be accessed, the threads will
-      start and end. In the end the output will be written in specific file.
+      start and end. In the end the output will be written in specific the 
+      files.
 
 * ReadInputFiles.java
 
@@ -26,7 +27,7 @@ _______________________________________________________________________________
 
     * This class defines an order. Each order has an id, a number of products
       and a status. At the beginning each status will be "in progress" by
-      default. After an order is processed the status will become "shipped"
+      default. After an order is processed the status will become "shipped".
 
 * OrderProcessor.java
 
@@ -38,7 +39,7 @@ _______________________________________________________________________________
 
 * OrderProcessorThread.java
 
-    * This class calls processOrder() for each order withing the orders' list.
+    * This class calls processOrder() for each order within the orders' list.
 
 * OrderProduct.java
 
@@ -53,9 +54,8 @@ _______________________________________________________________________________
 * ProductProcessor.java
 
     * This class checks if a product exists (if the order id is found in the 
-      list of orders) and if a product is abandoned. The process will be locked
-      before going through the orders and unlocked in the end. A lock will also
-      be enabled for the products before setting the abandoned variable to 1.
+      list of orders) and if a product is abandoned. A lock will be enabled 
+      for the products before setting the abandoned variable to 1.
 
 * ProductProcessorThread.java
 
