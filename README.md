@@ -1,5 +1,5 @@
 ## Online order processing simulator
-### Copyright Adina Amzarescu 2022
+#### Copyright Adina Amzarescu 2022
 
 _______________________________________________________________________________
 
