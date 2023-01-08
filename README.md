@@ -1,12 +1,14 @@
 ## Online order processing simulator
 ### Copyright Adina Amzarescu 2022
 
+_______________________________________________________________________________
+
 The main idea:
 
 Implement a Black Friday order processor in Java, which uses parallel 
 programming. 
 
-The idea of ​​the project is to process orders in parallel, 
+The idea of the project is to process orders in parallel, 
 as well as each product separately (even within the same order).
 
 _______________________________________________________________________________
